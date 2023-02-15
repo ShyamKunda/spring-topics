@@ -1,4 +1,4 @@
-package io.shyam.spring.basics.movierecommendersystem.lession10;
+package io.shyam.spring.basics.movierecommendersystem.lesson10;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;

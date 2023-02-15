@@ -1,4 +1,4 @@
-package io.shyam.spring.basics.movierecommendersystem.lession10;
+package io.shyam.spring.basics.movierecommendersystem.lesson10;
 
 public interface Filter {
 

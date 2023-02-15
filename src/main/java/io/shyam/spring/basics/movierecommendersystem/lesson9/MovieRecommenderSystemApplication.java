@@ -1,6 +1,5 @@
 package io.shyam.spring.basics.movierecommendersystem.lesson9;
 
-import io.shyam.spring.basics.movierecommendersystem.lesson8.CollaborativeFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -10,7 +9,7 @@ import org.springframework.context.annotation.FilterType;
 @SpringBootApplication
 //@ComponentScan(basePackages={"io.shyam.spring.basics.movierecommendersystem.lesson9",
 //		"io.shyam.spring.basics.movierecommendersystem.lession10"})
-@ComponentScan(basePackages = "io.shyam.spring.basics.movierecommendersystem.lession10")
+@ComponentScan(basePackages = "io.shyam.spring.basics.movierecommendersystem.lesson10")
 @ComponentScan(includeFilters = @ComponentScan.Filter (
 		type= FilterType.REGEX,
 		pattern="io.datajek.spring.basics.movierecommendersystem.lesson9.*"))
